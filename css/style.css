@@ -1,0 +1,158 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* Row */
+.row{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+/* Fixed Nav */
+.fixed-nav{
+    clear: both;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+.fixed-nav ul{
+    list-style: none;
+}
+.fixed-nav ul li{
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-left: 1px solid lightgrey;
+}
+.fixed-nav ul li a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);  
+}
+
+/*  Normal Nav */
+.normal-nav{
+    clear: both;
+    position: static;
+    width: 100%;
+    height: auto;
+}
+.normal-nav ul{
+    list-style: none;
+}
+.normal-nav ul li{
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-left: 1px solid lightgrey;
+}
+.normal-nav ul li a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);  
+}
+
+/* Float-left */
+.float-left{
+    clear: both;
+    float: left;
+}
+/* Float-right */
+.float-right{
+    clear: both;
+    float: right;
+}
+/* Card */
+.card{
+    clear: both;
+    display: inline-block;
+    height: auto;
+    margin: 10px;
+    border: 1px solid lightgrey;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-text {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+    font-weight: bold;
+}
+.card-bottom-text{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    color: grey;
+    margin-top: 5px;
+}
+
+/* Button */
+.button{
+    border-radius: 10px;
+}
+.button:hover{
+    box-shadow: aquamarine;
+}
+.blue-button{
+    background-color: blue;
+    color: white;
+}
+.red-button{
+    background-color: rgb(214, 18, 18);
+    color: white;
+}
+.white-button{
+    background-color: white;
+    color: black;
+}
+
+/* Forms */
+.form{
+    padding: 5px;
+    border: solid 1px #C6CFCF;
+}
+.form-header{
+    text-align: center;
+    font-weight: bolder;
+}
+.form-small-text p{
+    margin: 0 !important;
+    font-size: 12px;
+    color: grey;
+}
+.form-footer p{
+    margin: 0 !important;
+    font-size: 14px;
+    font-style: italic;
+    color: lightblue;
+}
+
+/*  footer */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+
