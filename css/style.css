@@ -31,19 +31,26 @@ vertical-align: baseline;
     position: fixed;
     width: 100%;
     height: auto;
+    background-color: black;
+    display: flex;
+
 }
 .fixed-nav ul{
     list-style: none;
 }
 .fixed-nav ul li{
+    text-align: center;
     display: inline;
     margin-left: 3px;
     margin-right: 3px;
     border-left: 1px solid lightgrey;
 }
 .fixed-nav ul li a{
+    color: white;
+    font-size: 16px;
     text-decoration: none;
-    color: rgb(46, 46, 46);  
+    margin: 10px 15px;
+    
 }
 
 /*  Normal Nav */
@@ -77,6 +84,7 @@ vertical-align: baseline;
     clear: both;
     float: right;
 }
+
 /* Card */
 .card{
     clear: both;
@@ -155,4 +163,30 @@ vertical-align: baseline;
     margin-top: 10px;
 }
 
+/*   3 column row */
 
+
+.cols-three{
+    width: 33%;
+    height: auto;
+    display: inline-block;
+    margin: 5px auto;
+
+
+}
+/*   4 column row */
+
+.cols-four{
+width: 24%;
+    height: auto;
+    display: inline-block;
+    margin: 5px auto;
+}
+/*   2 column row */
+
+.cols-two{
+    width: 49%;
+    height: auto;
+    display: inline-block;
+    margin: 5px auto;
+}
