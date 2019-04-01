@@ -1,42 +1,110 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>grid-based-framework</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/framework.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="main.js"></script>
 </head>
+
 <body>
-	<div>
-	<nav class="fixed-nav top-nav">
-		<ul class="nav-left">
-			<li ><a href="#">World</a></li>
-			<li ><a href="#">US Politcs</a></li>
-			<li ><a href="#">Business</a></li>
-			<li ><a href="#">Entertainment</a></li>
-			<li ><a href="#">Sport</a></li>
-			<li ><a href="#">Travel</a></li>
-			<li ><a href="#">Style</a></li>
-			<li ><a href="#">Health</a></li>
-			<li ><a href="#">Video</a></li>
-		</ul>
-		<div class="float-right nav-right">
-		<ul>
-			<li><a href="#">International Edition</a></li>
-			<li><a href="#"><i class="fa fa-search"></i></a></li>
-			<li><a href="#"><i class="fa fa-bars"></i></a></li>
-		</ul>
+	<div class="nav">
+		<nav class="fixed-nav top-nav">
+			<ul class="nav-left">
+				<li><a href="#">World</a></li>
+				<li><a href="#">US Politcs</a></li>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">Entertainment</a></li>
+				<li><a href="#">Sport</a></li>
+				<li><a href="#">Travel</a></li>
+				<li><a href="#">Style</a></li>
+				<li><a href="#">Health</a></li>
+				<li><a href="#">Video</a></li>
+			</ul>
+			<div class="float-right nav-right">
+				<ul>
+					<li><a href="#">International Edition</a></li>
+					<li><a href="#"><i class="fa fa-search"></i></a></li>
+					<li><a href="#"><i class="fa fa-bars"></i></a></li>
+				</ul>
+			</div>
+		</nav>
 	</div>
-	</nav>
-</div>
 	<div class="top-white-line">
 		<p>BREXIT WATCH</p>
-		<p>Brexit happens in 15d 6h 2m</p>
+		<p>Brexit happens in <span class="top-white-line-red">15d 6h 2m</span></p>
 	</div>
-	
+	<!-- Main body !-->
+	<div class="row main-body">
+		<div class="cols-three card main-body-article">
+			<div class="card-text-header main-body-article-header">
+				<p>Brexit blame game begins</p>
+			</div>
+			<img src="css/asset/img/brexit.jpg" alt="Brexit">
+			<div class="card-text">
+				<p>As lawmakers scramble to get a deal, Brexiteers worry that their prize of leaving the EU may be
+					slipping away</p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">LIVE Theresa May hints at election</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">EasyJet says Brexit uncertainty is hurting its business</a></p>
+			</div>
+		</div>
+		<div class="cols-three card main-body-article">
+			<div class="top-stories">
+				<p>Top Stories</p>
+			</div>
+			<img src="css/asset/img/ghana.jpg" alt="Ghana">
+			<div class="card-text top-stories-text">
+				<p>Women dismissed for getting pregnant reinstated by fire service</p>
+			</div>
+			<img src="css/asset/img/turkey.jpg" alt="Ghana">
+			<div class="card-text top-stories-text">
+				<p>Women dismissed for getting pregnant reinstated by fire service</p>
+			</div>
+		</div>
+		<div class="cols-three card main-body-article">
+			<img src="css/asset/img/china.jpg" alt="China">
+			<div class="card-text">
+				<p>Women dismissed for getting pregnant reinstated by fire service</p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Slain rapper's chilling last tweet</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Comedian and political newcomer leads polls</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Slain rapper's chilling last tweet</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Comedian and political newcomer leads polls</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Slain rapper's chilling last tweet</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Comedian and political newcomer leads polls</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Slain rapper's chilling last tweet</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Comedian and political newcomer leads polls</a></p>
+			</div>
+			<div class="card-element">
+				<p><a href="#">Slain rapper's chilling last tweet</a></p>
+			</div>
+		</div>
+	</div>
+
 </body>
+
 </html>

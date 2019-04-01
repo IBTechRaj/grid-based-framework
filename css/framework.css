@@ -19,6 +19,9 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline;
 }
+.body{
+    font-family: Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+}
 /* Row */
 .row{
     clear: both;
@@ -100,10 +103,41 @@ vertical-align: baseline;
 .card-text {
     width: 100%;
     height: auto;
-    margin-top: 5px;
+    padding: 10px 0;
     border-bottom: 1px solid lightgrey;
     text-align: left;
     font-weight: bold;
+    font-size: 20px;
+}
+.card-text-header{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-text-header p{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card-text a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.card-element {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+}
+.card-element a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+.card-element a:hover{
+    color: red;
 }
 .card-bottom-text{
     width: 100%;
@@ -167,26 +201,24 @@ vertical-align: baseline;
 
 
 .cols-three{
-    width: 33%;
+    vertical-align: top;
+    width: 30%;
     height: auto;
     display: inline-block;
-    margin: 5px auto;
-
-
 }
 /*   4 column row */
 
 .cols-four{
-width: 24%;
+    vertical-align: top;
+    width: 23%;
     height: auto;
     display: inline-block;
-    margin: 5px auto;
 }
 /*   2 column row */
 
 .cols-two{
-    width: 49%;
+    vertical-align: top;
+    width: 48%;
     height: auto;
     display: inline-block;
-    margin: 5px auto;
 }
