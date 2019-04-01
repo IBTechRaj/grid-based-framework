@@ -75,3 +75,31 @@
 	font-size: 20px;
 	border: none;
 }
+.section-line{
+	
+	
+	
+
+	
+}
+.section-line h5{
+	font-size: 20px;
+	color: black;
+	width: 15%;
+	float: left;
+	margin: 0 0;
+}
+.section-line p{
+	height: 10px;
+	background-color: lightgray;
+	margin-top: 10px;
+	width: 84%;
+	float: left;
+}
+.row2{
+	width: 86%;
+	margin: 0 auto;
+}
+.footer2{
+	margin-left: 150px;
+}
