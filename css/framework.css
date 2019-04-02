@@ -18,23 +18,10 @@
     display: flex;
 
 }
-.fixed-nav ul{
+.fixed-nav .nav-left{
     list-style: none;
 }
-.fixed-nav ul li{
-    text-align: center;
-    display: inline;
-    margin-left: 3px;
-    margin-right: 3px;
-    border-right: 1px solid lightgrey;
-}
-.fixed-nav ul li a{
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-    margin: 10px 15px;
-    
-}
+
 
 /*  Normal Nav */
 .normal-nav{
@@ -43,21 +30,10 @@
     width: 100%;
     height: auto;
 }
-.normal-nav ul{
+.normal-nav-ul{
     list-style: none;
 }
-.normal-nav ul li{
-    text-align: center;
-    display: inline;
-    margin-left: 3px;
-    margin-right: 3px;
-    padding-right: 5px;
-    border-right: 1px solid lightgrey;
-}
-.normal-nav ul li a{
-    text-decoration: none;
-    color: rgb(116, 110, 110);  
-}
+
 
 /* Float-left */
 .float-left{
@@ -67,7 +43,8 @@
 /* Float-right */
 .float-right{
     clear: both;
-    float: right;
+    
+    display: inline-block;
 }
 
 /* Card */
@@ -78,10 +55,7 @@
     margin: 10px;
     border: 1px solid lightgrey;
 }
-.card img{
-    width: 100%;
-    height: auto;
-}
+
 .card-text {
     width: 100%;
     height: auto;
@@ -97,15 +71,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.card-text-header p{
-    font-size: 50px;
-    font-weight: bold;
-}
-.card-text a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
+
 .card-element {
     width: 100%;
     height: auto;
@@ -113,14 +79,7 @@
     border-bottom: 1px solid lightgrey;
     text-align: left;
 }
-.card-element a{
-    text-decoration: none;
-    color: black;
-    font-weight: lighter;
-}
-.card-element a:hover{
-    color: red;
-}
+
 .card-bottom-text{
     width: 100%;
     height: auto;
@@ -158,17 +117,7 @@
     text-align: center;
     font-weight: bolder;
 }
-.form-small-text p{
-    margin: 0 !important;
-    font-size: 12px;
-    color: grey;
-}
-.form-footer p{
-    margin: 0 !important;
-    font-size: 14px;
-    font-style: italic;
-    color: lightblue;
-}
+
 
 /*  footer */
 .footer{
