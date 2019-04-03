@@ -1,0 +1,155 @@
+
+.body{
+    font-family: Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+}
+/* Row */
+.row{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+/* Fixed Nav */
+.fixed-nav{
+    clear: both;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+
+}
+.fixed-nav .nav-left{
+    list-style: none;
+}
+
+
+/*  Normal Nav */
+.normal-nav{
+    clear: both;
+    position: static;
+    width: 100%;
+    height: auto;
+}
+.normal-nav-ul{
+    list-style: none;
+}
+
+
+/* Float-left */
+.float-left{
+    clear: both;
+    float: left;
+}
+/* Float-right */
+.float-right{
+    clear: both;
+    
+    display: inline-block;
+}
+
+/* Card */
+.card{
+    clear: both;
+    display: inline-block;
+    height: auto;
+    margin: 10px;
+    border: 1px solid lightgrey;
+}
+
+.card-text {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-text-header{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-element {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+}
+
+.card-bottom-text{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    color: grey;
+    margin-top: 5px;
+}
+
+/* Button */
+.button{
+    border-radius: 10px;
+}
+.button:hover{
+    box-shadow: aquamarine;
+}
+.blue-button{
+    background-color: blue;
+    color: white;
+}
+.red-button{
+    background-color: rgb(214, 18, 18);
+    color: white;
+}
+.white-button{
+    background-color: white;
+    color: black;
+}
+
+/* Forms */
+.form{
+    padding: 5px;
+    border: solid 1px #C6CFCF;
+}
+.form-header{
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+/*  footer */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+/*   3 column row */
+
+
+.cols-three{
+    vertical-align: top;
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+/*   4 column row */
+
+.cols-four{
+    vertical-align: top;
+    width: 23%;
+    height: auto;
+    display: inline-block;
+}
+/*   2 column row */
+
+.cols-two{
+    vertical-align: top;
+    width: 48%;
+    height: auto;
+    display: inline-block;
+}
